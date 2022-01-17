@@ -1,0 +1,30 @@
+.expense-item{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: rgb(0, 133, 133);
+          position: relative;
+          border-radius: 10px;
+          font-size: 30px;      
+}
+
+.expense-item_description{
+          display: flex;
+          padding: 24px;
+                
+}
+.expense-item__price{
+          margin-left: 100px;
+          background: cornflowerblue;
+          padding: 10px;
+          
+          border-radius: 10px;
+          border: 2px solid #fff;
+          cursor: pointer;
+}
+.expense_name{
+       color: #fff;
+       font-weight: bold;
+       padding: 10px;
+       
+}

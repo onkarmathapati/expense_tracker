@@ -1,13 +1,19 @@
-function ExpenseItem() {
-          return(
-               <>
-               <div>March 28th 2021</div>
-               <div>
-                  <h2>Car Insurance</h2>
-                  <div>$294.3</div>
-               </div>
-               </>     
-          )
+import React from "react";
+import "./ExpenseItem.css";
+
+function ExpenseItem(props) {
+  return (
+     <div style={{padding:"20px"}}>
+      <div className="expense-item">
+        <div style={{fontSize: "30px"}}>{props.date.toISOString()}</div>
+        <div className="expense-item_description">
+          <div className="expense_name">{props.title}</div>
+          <div className="expense-item__price">${props.amount}</div>
+        </div>
+      </div>
+      </div>
+    
+  );
 }
 
 export default ExpenseItem;
