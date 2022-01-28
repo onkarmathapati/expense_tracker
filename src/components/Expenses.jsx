@@ -1,7 +1,7 @@
 import React from "react";
 import ExpenseItem from "./ExpenseItems";
 
-function Expenses(props) {
+const Expenses = (props) => {
   return (
     <div style={{padding: "24px", display:"flex", flexDirection:"column", justifyContent:"center", marginLeft:"20%"}}>
       <ExpenseItem
