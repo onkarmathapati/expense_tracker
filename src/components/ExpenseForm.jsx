@@ -35,7 +35,7 @@ const ExpenseForm = (props) => {
 
   };
 
-  return (
+  return (   
     <form onSubmit={submitHandler}>
       <div className="new_expense_controls">
         <div className="new_expense_control">
